@@ -4,11 +4,26 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "webpack --mode development&&electron .",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^5.0.6"
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "electron": "^5.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
   }
 }
