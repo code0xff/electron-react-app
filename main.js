@@ -11,7 +11,7 @@ function createWindow () {
     }
   })
 
-  win.loadFile('./dist/index.html')
+  win.loadFile('./build/index.html')
 
   win.webContents.openDevTools()
 
