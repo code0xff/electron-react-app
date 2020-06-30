@@ -4,14 +4,5 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.title {
-  text-align: center;
   color: #6e6e6e;
-}
-
-.contents {
-  text-align: center;
-  color: #a4a4a4;
 }
