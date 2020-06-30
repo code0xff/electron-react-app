@@ -29,4 +29,7 @@ module.exports = {
       filename: "./index.html"
     })
   ],
+  output: {
+    path: __dirname + "/build"
+  }
 }
